@@ -13,7 +13,7 @@ public function SetIP($ip) - set manually sms server remote ip, if not - use the
 //-----------------------------------------------------------------------------------------------------------//
 public function SendSMS($phone, $text) - pdu encode the phone number and text and send it with the sms server.
 	e.g:
-		$sms->SendSMS('972524511865','some UTF-8 message');
+		$sms->SendSMS('972521234567','some UTF-8 message');
 //-----------------------------------------------------------------------------------------------------------//
 public function pdu_decode($pdu) - decode pdu string recived from sms server and return array of: 'smsc','phone','ts','message'.
 	e.g:
